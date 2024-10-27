@@ -1,0 +1,4 @@
+name: KJYPlugin
+main: org.main.KJYPlugin
+api-version: 1.21
+version: 1

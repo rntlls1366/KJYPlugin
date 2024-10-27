@@ -15,7 +15,7 @@ public class MonsterListener implements Listener {
             //스폰 위치
             Location spawnLocation = event.getLocation();
 
-            if (isWithinLocation(spawnLocation, 100, 0, 100, 200, 200, 200)) {
+            if (isWithinLocation(spawnLocation, 220, 100, -372, 374, 125, -218)) {
                 event.setCancelled(true);
             }
         }
