@@ -9,13 +9,13 @@ import org.main.listener.VillagerListener;
 public class KJYPlugin extends JavaPlugin  {
 
     private final Listener VillagerListener = new VillagerListener();
-    private final Listener PlayerListener = new PlayerListener();
+    //private final Listener PlayerListener = new PlayerListener();
     private final Listener MonsterListener = new MonsterListener();
 
     @Override
     public void onEnable() {    //서버 실행 및 리로드 시 실행됨
         getServer().getPluginManager().registerEvents(VillagerListener, this);
-        getServer().getPluginManager().registerEvents(PlayerListener, this);
+        //getServer().getPluginManager().registerEvents(PlayerListener, this);
         getServer().getPluginManager().registerEvents(MonsterListener, this);
         //getServer : 서버가 이 플러그인을 실행함
         //getPluginManager : 대충 플러그인 매니저라는 뜻
